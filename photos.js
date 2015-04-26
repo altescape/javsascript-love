@@ -1,3 +1,13 @@
+/*
+  JavaScript plugin for shopify to enable normal posts with images
+  to function as a gallery with packery style look and fancybox lightbox.
+  
+  Dependencies:
+    jQuery 1.11.2 -https://jquery.com/,
+    Fancybox 2.1.5 -http://fancyapps.com/fancybox/,
+    Packery 1.4 -http://packery.metafizzy.co/
+*/
+
 var PHOTOS = (function () {
   
   var image_container =  $('.image-container');
