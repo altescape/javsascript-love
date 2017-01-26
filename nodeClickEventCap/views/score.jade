@@ -1,0 +1,15 @@
+extends layouts/application
+
+block content
+  h1.text-center Scores
+  .col-sm-4.col-sm-offset-4.text-center
+    .buttons.well(data-id="first")
+      h2 Image 1
+      img(src="http://placehold.it/345x200&text=1" width="100%").thumbnail
+      include partials/score_buttons
+
+    .buttons.well(data-id="second")
+      h2 Image 2
+      img(src="http://placehold.it/345x200&text=2" width="100%").thumbnail
+      include partials/score_buttons
+
